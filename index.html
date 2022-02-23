@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>乌兰察布市国爱志愿者协会</title>
+		<link rel="stylesheet" href="css/sj.css"/>
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+	</head>
+	<body>
+		<header>
+			<div class="head">
+				<img src="https://pic.imgdb.cn/item/621644452ab3f51d914fdfe5.jpg">
+			</div>
+			<div class="qb" onclick="changeQb()"><img src="https://img0.baidu.com/it/u=372411195,3890416221&fm=253&fmt=auto&app=138&f=PNG?w=200&h=200"></div>
+			<div id="qb">
+				<div><a target="_blank" href="https://mp.weixin.qq.com/s/B7eSR7S1QZWF-OnoVwMjpQ">协会简介</a></div>
+				<div><a target="_blank" href="https://mp.weixin.qq.com/s/43nS3xIxski_Bi683-YhlQ">协会章程</a></div>
+				<div><a target="_blank" href="https://mp.weixin.qq.com/s/9sRojhl225pGpe7JesuNCg">志愿者风采</a></div>
+				<div><a target="_blank" href="https://mp.weixin.qq.com/s/anw8rLGiMvE0GtnHM2zoyA">超级志愿者</a></div>
+			</div>
+			<script>
+				function changeQb(){
+					if(document.getElementById("qb").style.display=="none"){
+						document.getElementById("qb").style.display = "block";
+					}
+					else{
+						document.getElementById("qb").style.display = "none";
+					}
+				}
+			</script>
+			<div class="lb">
+				<div class="lb">
+					<img id="lb" src="https://pic.imgdb.cn/item/6216461c2ab3f51d91558eb6.jpg" />
+				</div>
+				<script>
+					var src=[
+						"https://pic.imgdb.cn/item/6216461c2ab3f51d91558eb6.jpg",
+						"https://pic.imgdb.cn/item/621646122ab3f51d91556f4c.jpg",
+						"https://pic.imgdb.cn/item/6216480d2ab3f51d915b5b4b.jpg"
+					]
+					var cur=1;
+					setInterval("lb()",3000);
+					function lb(){
+						cur++;
+						if(cur==src.length){
+							cur=0;
+						}
+						document.getElementById("lb").src=src[cur];
+					}
+				</script>
+			</div>
+		</header>
+		
+		<article>
+			<div class="yw">
+				<div class="yw_head"><img src="https://pic.imgdb.cn/item/621653922ab3f51d917f4a69.jpg"><div>国爱要闻</div></div>
+				<div class="yw_text">
+					<div><a target="_blank" href=""></a></div>
+					<div><a target="_blank" href=""></a></div>
+					<div><a target="_blank" href=""></a></div>
+					<div><a target="_blank" href=""></a></div>
+				</div>
+			</div>
+		</article>
+		
+		<footer>
+			<div><img src="https://pic.imgdb.cn/item/6216461c2ab3f51d91558ed1.jpg"></div>
+		</footer>
+	</body>
+</html>
