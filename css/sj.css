@@ -45,24 +45,25 @@ article{
 	margin-top: 10px;
 }
 article{
-	margin: 0 5%;
+	padding: 0 5%;
 }
-article .yw .yw_head{
+article .yw .yw_head,article .sc .sc_head,article .gy .gy_head{
+	width: 90%;
 	display: flex;
 	border-bottom: 3px solid deepskyblue;
 }
-article .yw .yw_head img{
+article .yw_head img,article .sc .sc_head img ,article .gy .gy_head img{
 	width: 45%;
 	height: 50px;
 }
- .yw_head div{
+article .yw_head div, article .sc .sc_head div,article .gy .gy_head div{
 	height: 50px;
 	margin-left: 5%;
 	font-size: 32px;
 	line-height: 50px;
 }
 article .yw .yw_text div,article .gy .gy_text div{
-	width: 100%;
+	width: 90%;
 	paddingb: 10px;
 	border-bottom: 1px solid gray;
 }
@@ -76,13 +77,18 @@ article .yw .yw_text div a,article .gy .gy_text div a{
     -webkit-line-clamp: 1;
     overflow: hidden;
 }
-article .sc .sc_head,article .gy .gy_head{
+article .sc .sc_text{
+	width: 90%;
+	text-indent:2em;
+	font-size: 16px;
+}
+article .ry .ry_head{
+	width: 90%;
 	text-align: center;
 	font-size: 32px;
 }
-article .sc .sc_text{
-	text-indent:2em;
-	font-size: 16px;
+.yw,.gy,.sc,.ry{
+	margin: 10px 0;
 }
 footer div{
 	width: 100%;
