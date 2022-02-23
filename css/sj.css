@@ -43,9 +43,7 @@ header .lb img{
 article{
 	width: 90%;
 	margin-top: 10px;
-}
-article{
-	margin: 0 5%;
+	margin: 0 0 0 10%;
 }
 article .yw .yw_head,article .sc .sc_head,article .gy .gy_head{
 	width: 90%;
