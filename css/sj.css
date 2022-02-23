@@ -30,7 +30,7 @@ header .qb img{
 #qb div a{
 	text-decoration: none;
 	color: black;
-	font-size: 32px;
+	font-size: 24px;
 	margin: 10px;
 }
 header .lb{
@@ -50,12 +50,13 @@ article .yw .yw_head,article .sc .sc_head,article .gy .gy_head{
 	border-bottom: 3px solid deepskyblue;
 }
 article .yw_head img,article .sc .sc_head img ,article .gy .gy_head img{
-	width: 50%;
+	flex: 1;
 	height: 50px;
 }
 article .yw_head div, article .sc .sc_head div,article .gy .gy_head div{
 	height: 50px;
-	margin-left: 5%;
+	flex: 1;
+	text-align: center;
 	font-size: 32px;
 	line-height: 50px;
 }
