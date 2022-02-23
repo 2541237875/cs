@@ -90,6 +90,9 @@ article .ry .ry_head{
 .yw,.gy,.sc,.ry{
 	margin: 10px 0;
 }
+.ry img{
+	width: 90%;
+}
 footer div{
 	width: 100%;
 }
