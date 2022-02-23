@@ -21,6 +21,7 @@ header .qb img{
 }
 #qb{
 	display: none;
+	margin-bottom: 20px;
 }
 #qb div{
 	border-bottom: 1px solid gray;
