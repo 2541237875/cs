@@ -8,9 +8,11 @@ header .head{
 header .head img{
 	width: 100%;
 }
-header .qb{
+header .qb,header .lb{
 	position: relative;
 	top: -5px;
+}
+header .qb{
 	background-color: red;
 	padding-left: 5%;
 }
