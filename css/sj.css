@@ -2,6 +2,14 @@ body{
 	margin: 0;
 	padding: 0;
 }
+img {
+	user-select: auto;
+    pointer-events: auto;
+    -webkit-touch-callout: auto;
+    -moz-user-select: auto;
+    -webkit-user-select: auto;
+    -o-user-select: auto;
+}
 header .head{
 	width: 100%;
 }
