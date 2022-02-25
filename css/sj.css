@@ -10,6 +10,10 @@ img {
     -webkit-user-select: auto;
     -o-user-select: auto;
 }
+a{
+	text-decoration: none;
+	color: black;
+}
 header .head{
 	width: 100%;
 }
@@ -37,8 +41,6 @@ header .qb img{
 }
 
 #qb div a{
-	text-decoration: none;
-	color: black;
 	font-size: 24px;
 	margin: 10px;
 }
@@ -96,6 +98,17 @@ article .ry .ry_head{
 }
 .ry img{
 	width: 100%;
+}
+footer .gzgzh{
+	text-align: center;
+	margin: 10px 0;
+}
+footer .gzgzh a{
+	text-align: center;
+	padding: 10px 20px;
+	background-color: greenyellow;
+	font-size: 42px;
+	border-radius: 10px;
 }
 footer div{
 	width: 100%;
